@@ -1,4 +1,4 @@
-package com.fahad.beans;
+package com.myairportsedan.beans;
 
 public class User {
 

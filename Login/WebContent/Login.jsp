@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<jsp:useBean id="user1" class="com.fahad.beans.User" scope="session"></jsp:useBean>
+	<jsp:useBean id="user1" class="com.myairportsedan.beans.User" scope="session"></jsp:useBean>
 	<jsp:setProperty property="*" name="user1" />
 
 	<%
@@ -21,7 +21,7 @@
 	
 	<h2><jsp:getProperty property="errorMessage" name="user1" /></h2>
 
-	<form action="/SimpleJSPLogin/Login.jsp" method="post">
+	<form action="/Login/Login.jsp" method="post">
 		
 		<input type="text" name="email"
 			value='<jsp:getProperty property="email" name="user1"/>' /> <br />
